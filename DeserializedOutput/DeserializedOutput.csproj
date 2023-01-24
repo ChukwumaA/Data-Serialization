@@ -8,6 +8,7 @@
     </PropertyGroup>
 
     <ItemGroup>
+      <ProjectReference Include="..\AttributeContent\AttributeContent.csproj" />
       <ProjectReference Include="..\JSON-To-Console\JSON-To-Console.csproj" />
       <ProjectReference Include="..\TXT-To-Console\TXT-To-Console.csproj" />
     </ItemGroup>

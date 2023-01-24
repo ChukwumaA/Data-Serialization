@@ -47,6 +47,11 @@ public static class DocumentMethod
             GetProperties(property: type);
             GetMethods(method: type);
             IsEnum(type: type);
+            
+            @CustomData.Add(new CustomData { Name = type.Name, 
+                Description = ((DocumentAttribute)attributes[0]).Description!, 
+                Input = ((DocumentAttribute)attributes[0]).Input!, 
+                Output = ((DocumentAttribute)attributes[0]).Output! });
 
         }
         Console.WriteLine("| End of Documentation |");

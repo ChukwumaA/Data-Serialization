@@ -18,7 +18,7 @@ ConvertToTxtFile.Create_TXT_File(documentTexts, $"{fileLocation}{fileName}");
 Console.WriteLine(".txt Created");
 
 const string jsonFileName = "GetDocs.json";
-ConvertToJson.SaveAsJsonFormat( documentTexts, $"{fileLocation}{jsonFileName}");
+ConvertToJson.SaveAsJsonFormat( CustomData, $"{fileLocation}{jsonFileName}");
 Console.WriteLine(".json Created");
 
 const string pdfDocName = "GetDoc.pdf";
