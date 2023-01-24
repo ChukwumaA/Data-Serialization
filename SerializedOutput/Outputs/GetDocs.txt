@@ -1,0 +1,44 @@
+AttributeContent, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+| Code Documentation |
+
+Class: Torchlight
+	Description: A simple torchlight
+
+Constructor: .ctor
+	Description: This adds the battery to the torchlight
+	Input: IBattery
+
+Method: Torchlight
+	Description: A simple torchlight
+	Input: 
+	Output: 
+
+Class: Duracell
+	Description: This is a duracell battery that works with a torchlight
+
+Method: Duracell
+	Description: This is a duracell battery that works with a torchlight
+	Input: 
+	Output: 
+
+Class: Tiger
+	Description: This is a Tiger battery that works with a torchlight
+
+Method: Tiger
+	Description: This is a Tiger battery that works with a torchlight
+	Input: 
+	Output: 
+
+Method: TorchBrightness
+	Description: This indicates the brightness of the battery
+	Input: 
+	Output: 
+
+Enum: TorchBrightness
+	Description: This indicates the brightness of the battery
+Low
+Medium
+High
+
+
+
