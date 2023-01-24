@@ -7,4 +7,8 @@
         <Nullable>enable</Nullable>
     </PropertyGroup>
 
+    <ItemGroup>
+      <ProjectReference Include="..\Data-To-TXT-File\Data-To-TXT-File.csproj" />
+    </ItemGroup>
+
 </Project>

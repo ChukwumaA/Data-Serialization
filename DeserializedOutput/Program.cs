@@ -1,3 +1,3 @@
-﻿// See https://aka.ms/new-console-template for more information
+﻿using TXT_T0_Console;
 
-Console.WriteLine("Hello, World!");
+TxtToConsole.PrintToConsole();

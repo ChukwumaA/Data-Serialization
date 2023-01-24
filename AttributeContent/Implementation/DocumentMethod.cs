@@ -51,6 +51,7 @@ public static class DocumentMethod
         }
         Console.WriteLine("| End of Documentation |");
         Console.WriteLine();
+        Data.AppendLine("| End of Documentation |");
         Data.AppendLine();
     }
     
