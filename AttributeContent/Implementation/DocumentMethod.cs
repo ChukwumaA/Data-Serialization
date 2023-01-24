@@ -72,7 +72,10 @@ public static class DocumentMethod
             Console.WriteLine();
             Data.AppendLine();
 
-            @CustomData.Add(new CustomData { Name = constructor.Name, Description = ((DocumentAttribute)constructorAttributes[0]).Description!, Input = ((DocumentAttribute)constructorAttributes[0]).Input!, Output = ((DocumentAttribute)constructorAttributes[0]).Output! });
+            @CustomData.Add(new CustomData { Name = constructor.Name, 
+                Description = ((DocumentAttribute)constructorAttributes[0]).Description!, 
+                Input = ((DocumentAttribute)constructorAttributes[0]).Input!, 
+                Output = ((DocumentAttribute)constructorAttributes[0]).Output! });
 
         }
     }
@@ -150,4 +153,5 @@ public static class DocumentMethod
             Input = shortCall.Input!, 
             Output = shortCall.Output! });
     }
+    
 }

@@ -2,9 +2,13 @@
 
     <PropertyGroup>
         <TargetFramework>net6.0</TargetFramework>
-        <RootNamespace>Data_To_JSON</RootNamespace>
+        <RootNamespace>Data_To_PDF</RootNamespace>
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
     </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="iTextSharp" Version="5.5.13.3" />
+    </ItemGroup>
 
 </Project>

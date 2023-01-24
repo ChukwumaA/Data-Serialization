@@ -14,7 +14,12 @@
     <ItemGroup>
       <ProjectReference Include="..\AttributeContent\AttributeContent.csproj" />
       <ProjectReference Include="..\Data-To-JSON\Data-To-JSON.csproj" />
+      <ProjectReference Include="..\Data-To-PDF\Data-To-PDF.csproj" />
       <ProjectReference Include="..\Data-To-TXT-File\Data-To-TXT-File.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Newtonsoft.Json" Version="13.0.2" />
     </ItemGroup>
 
 </Project>
