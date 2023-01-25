@@ -1,0 +1,62 @@
+[
+  {
+    "Name": ".ctor",
+    "Description": "This adds the battery to the torchlight",
+    "Input": "IBattery",
+    "Output": ""
+  },
+  {
+    "Name": "Torchlight",
+    "Description": "A simple torchlight",
+    "Input": "",
+    "Output": ""
+  },
+  {
+    "Name": "Torchlight",
+    "Description": "A simple torchlight",
+    "Input": "",
+    "Output": ""
+  },
+  {
+    "Name": "Duracell",
+    "Description": "This is a duracell battery that works with a torchlight",
+    "Input": "",
+    "Output": ""
+  },
+  {
+    "Name": "Duracell",
+    "Description": "This is a duracell battery that works with a torchlight",
+    "Input": "",
+    "Output": ""
+  },
+  {
+    "Name": "Tiger",
+    "Description": "This is a Tiger battery that works with a torchlight",
+    "Input": "",
+    "Output": ""
+  },
+  {
+    "Name": "Tiger",
+    "Description": "This is a Tiger battery that works with a torchlight",
+    "Input": "",
+    "Output": ""
+  },
+  {
+    "Name": "TorchBrightness",
+    "Description": "This indicates the brightness of the battery",
+    "Input": "",
+    "Output": ""
+  },
+  {
+    "Name": "TorchBrightness",
+    "Description": "This indicates the brightness of the battery",
+    "Input": "",
+    "Output": ""
+  },
+  {
+    "Name": "TorchBrightness",
+    "Description": "This indicates the brightness of the battery",
+    "Input": "",
+    "Output": ""
+  }
+]
