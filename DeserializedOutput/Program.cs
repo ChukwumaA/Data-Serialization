@@ -6,4 +6,5 @@ TxtToConsole.PrintToConsole();
 
 
 const string fileLocation = "C:\\Users\\Chikosolu Akunyili\\RiderProjects\\Data Serialization\\SerializedOutput\\Outputs\\GetDocs.json";
-ReadAsJsonFormat<CustomData>(fileLocation);
+
+ReadAsJsonFormat<@CustomData>(fileLocation);

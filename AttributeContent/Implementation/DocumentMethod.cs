@@ -11,7 +11,7 @@ namespace AttributeContent.Implementation;
 public static class DocumentMethod
 {
     public static readonly StringBuilder Data = new();
-    public static List<CustomData> @CustomData => new();
+    public static List<CustomData> @CustomData = new();
 
     public static void GetDocs()
     {
