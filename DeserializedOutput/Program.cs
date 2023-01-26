@@ -1,6 +1,4 @@
-﻿
-using AttributeContent.Implementation;
-using AttributeContent.Model;
+﻿using AttributeContent.Model;
 using TXT_T0_Console;
 using static JSON_To_Console.JsonToConsole;
 
