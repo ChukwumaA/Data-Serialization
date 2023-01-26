@@ -1,9 +1,6 @@
-﻿using System.Text.Json;
-using Data_To_JSON;
+﻿using Data_To_JSON;
 using Data_To_PDF;
 using Data_To_TXT_File;
-using Newtonsoft.Json;
-using static System.Text.Json.JsonSerializer;
 using static AttributeContent.Implementation.DocumentMethod;
 
 GetDocs();
